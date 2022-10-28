@@ -1,4 +1,3 @@
-extern crate getopts;
 use clap::{Arg, App};
 use echo_net::{run_server, run_client};
 use std::error::Error;
