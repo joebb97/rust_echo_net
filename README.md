@@ -5,12 +5,12 @@ Supports tcp and udp
 ## Run Server
 
 ```
-$ cargo -- -s [--proto tcp|udp] [--port port] [-a addr]
+$ cargo run -- -s [--proto tcp|udp] [--port port] [-a addr]
 ```
 
 ## Run Client
 ```
-$ cargo -- -c [-proto tcp|udp] [--port port] [-a addr]
+$ cargo run -- -c [-proto tcp|udp] [--port port] [-a addr]
 ```
 
 ## Expected Behavior
